@@ -1,0 +1,66 @@
+2019-08-07 10:44:23.093 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CsApplication on DESKTOP-SLEFHHM with PID 296060 (G:\sts4.0-workspace\cs\target\classes started by xiepeiqi in G:\sts4.0-workspace\cs)
+2019-08-07 10:44:23.151 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-08-07 10:44:24.062 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.xpq.cs]' package. Please check your configuration.
+2019-08-07 10:44:24.100 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-07 10:44:24.105 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-07 10:44:24.131 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-08-07 10:44:24.387 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:24.404 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ac0ea91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:24.702 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:24.742 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:24.749 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:24.755 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$6fdaa8db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:25.174 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:25.270 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:25.272 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.xpq.cs.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$a2b97b70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:44:26.398 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-08-07 10:44:26.411 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-07 10:44:26.420 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-08-07 10:44:26.421 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-07 10:44:26.757 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-08-07 10:44:26.757 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3573 ms
+2019-08-07 10:44:27.594 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-07 10:44:28.030 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2019-08-07 10:44:28.683 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-07 10:44:29.213 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
+2019-08-07 10:44:29.232 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-08-07 10:44:29.265 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
+2019-08-07 10:44:29.401 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2019-08-07 10:44:29.438 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-07 10:44:29.441 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CsApplication in 6.649 seconds (JVM running for 16.721)
+2019-08-07 10:44:36.059 - INFO  [on(7)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-07 10:44:36.067 - INFO  [on(7)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closing ...
+2019-08-07 10:44:36.087 - INFO  [on(7)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closed
+2019-08-07 10:51:06.318 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CsApplication on DESKTOP-SLEFHHM with PID 285508 (G:\sts4.0-workspace\cs\target\classes started by xiepeiqi in G:\sts4.0-workspace\cs)
+2019-08-07 10:51:06.323 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2019-08-07 10:51:07.213 - WARN  [           main] o.m.l.Logger                   : No MyBatis mapper was found in '[com.xpq.cs]' package. Please check your configuration.
+2019-08-07 10:51:07.250 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-07 10:51:07.253 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-07 10:51:07.276 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-08-07 10:51:07.481 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.498 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff3964f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.528 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.540 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.547 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.551 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$1453233f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.632 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.692 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:07.693 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.xpq.cs.config.redis.RedisConfig$$EnhancerBySpringCGLIB$$4731f5d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-07 10:51:08.077 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
+2019-08-07 10:51:08.090 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-07 10:51:08.097 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-08-07 10:51:08.098 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-07 10:51:08.197 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-08-07 10:51:08.197 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1812 ms
+2019-08-07 10:51:08.466 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-08-07 10:51:08.836 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2019-08-07 10:51:09.569 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-07 10:51:10.156 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
+2019-08-07 10:51:10.177 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-08-07 10:51:10.213 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
+2019-08-07 10:51:10.348 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
+2019-08-07 10:51:10.420 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-07 10:51:10.423 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CsApplication in 4.365 seconds (JVM running for 10.647)
+2019-08-07 10:51:15.571 - INFO  [on(2)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-07 10:51:15.577 - INFO  [on(2)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closing ...
+2019-08-07 10:51:15.587 - INFO  [on(2)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closed
